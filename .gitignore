@@ -1,0 +1,6 @@
+provider_secret_variable.tf
+provider_variable.tf
+.idea/
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup

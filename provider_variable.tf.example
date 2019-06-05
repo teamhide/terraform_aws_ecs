@@ -1,0 +1,33 @@
+variable "name" {
+    default = "test"
+}
+variable "aws_region" {
+    default = "ap-northeast-2"
+}
+variable "account_id" {
+  default = ""
+}
+variable "source_ip" {
+  default = ""
+}
+variable "subnets" {
+  default = ["subnet-0000000", "subnet-0000000"]
+}
+variable "subnet_group_name" {
+  default = "default"
+}
+variable "security_groups" {
+  default = "sg-0000000"
+}
+variable "availability_zones" {
+  default = ["ap-northeast-2a", "ap-northeast-2c"]
+}
+
+variable "vpc" {
+  default = "vpc-0000000"
+}
+
+variable "instance_type" {
+  default     = "t2.micro"
+  description = "AWS instance type"
+}
